@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fórmula</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/Home/home.html" class="logo">
+                <img src="/img/icon.png (2).png" alt="Logo da Fórmula" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="/Home/home.html">Home</a></li>
+                <li><a href="/Sobre/sobre.html">Sobre</a></li>
+                <li><a href="/Eventos/eventos.html">Eventos</a></li>
+                <li><a href="/Galeria/galeria.html">Galeria</a></li>
+                <li><a href="/Contato/contato.html">Contato</a></li>
+            </ul>
+            <button id="toggle-theme">Modo Escuro</button>
+        </nav>
+    </header>
+    <main>
+        <section class="login-container">
+            <form class="login-form" action="/Home/home.html" method="GET">
+                <h1>Login</h1>
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Entrar</button>
+                <p>Não tem uma conta? <a href="/Cadastro/cadastro.html">Cadastre-se</a></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fórmula. Todos os direitos reservados.</p>
+    </footer>
+    <script src="/index.js"></script>
+</body>
+</html>
